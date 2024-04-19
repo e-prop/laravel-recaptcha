@@ -3,7 +3,7 @@
     "description": "Easily add reCAPTCHA to your Laravel projects",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "6.0"
+        "guzzlehttp/guzzle": "~6.0"
     },
     "license": "MIT",
     "autoload": {
