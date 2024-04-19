@@ -1,0 +1,26 @@
+{
+    "name": "thashendran/laravel-recaptcha",
+    "description": "Easily add reCAPTCHA to your Laravel projects",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thashendran\\LaravelRecaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thashendran\\LaravelRecaptcha\\RecaptchaServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0"
+    }
+}
